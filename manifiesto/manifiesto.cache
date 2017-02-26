@@ -1,0 +1,15 @@
+#v 1.0
+#Manifiesto Correspondiente al blog
+
+CACHE MANIFEST
+index,html
+css/estilo.css
+img/blanco.png 
+img/fondo.jpg
+img/negro.png
+audio/001.mp3
+video/robot.mp4
+photo/dtejmena.jpg
+photo/logo.png
+
+
