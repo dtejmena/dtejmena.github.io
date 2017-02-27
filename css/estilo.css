@@ -974,47 +974,6 @@ a.imagen:hover img  {
 
 }
 
-form table{
-	width: 100%;
-	border: 0px solid white;
-	padding: 0px;
-	
-}
-
-form{
-	font-family: FeiradaFruta;
-	color: black;
-	text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
-	border: 1px solid white;
-	border-radius: 0px 15px 0px 15px;
-	-webkit-border-radius: 0px 15px 0px 15px;
-	-moz-border-radius: 0px 15px 0px 15px;
-	-o-border-radius: 0px 15px 0px 15px;
-	box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
-	-webkit-box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
-	-moz-box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
-	-o-box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
-	background: rgba(255,255,255,0.5);
-	width: 80%;
-	padding:10px;
-
-}
-
-form input, form textarea{
-	font-size: 10px;
-	font-family: Kitsu_XD;
-	background: rgba(255,255,255,0.5);
-	border: 1px dotted white;
-	box-shadow: 0px 0px 5px rgba()0,0,0,0.5;
-	-webkit-box-shadow: 0px 0px 5px rgba()0,0,0,0.5;
-	-moz-box-shadow: 0px 0px 5px rgba()0,0,0,0.5;
-	-o-box-shadow: 0px 0px 5px rgba()0,0,0,0.5;
-	border-radius: 0px 5px 0px 5px;
-	-webkit-border-radius: 0px 5px 0px 5px;
-	-moz-border-radius: 0px 5px 0px 5px;
-	-o-border-radius: 0px 5px 0px 5px;
-}
-
 
 
 
