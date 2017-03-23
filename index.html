@@ -17,6 +17,9 @@
 
 	     <script src="js/jquery-latest.js"></script>
 	     <script src="js/main.js"></script>
+
+       <script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
+
      </head>
 
      <body>
@@ -88,7 +91,7 @@
 				<div class="mySlides">
                   <div class="titulo"><p>SITIO</p></div>
 				  <img src="img/Sitio_opt.png"  width="450px" height="400px">
-                  <p>Este sitio web esta diseñado por <a class="imagen" href="#">Jainover Mena <img src="img/A.png" width="25%" width="25%"></a> con el fin de servir de medio informativo y ayuda en temas de Tecnología, diseño, informática y educación,  encontraras 5 secciones (Sitio, Proyectos, Actividades, Sugeridos y acerca del autor) por donde podrás navegar  e informarte de su contenido, espero te entretengas y encuetres lo que estas buscando.</p>
+                  <p>Este sitio web esta diseñado por <a class="imagen" href="#acercademi">Jainover Mena <img src="img/A.png" width="25%" width="25%"></a> con el fin de servir de medio informativo y ayuda en temas de Tecnología, diseño, informática y educación,  encontraras 5 secciones (Sitio, Proyectos, Actividades, Sugeridos y acerca del autor) por donde podrás navegar  e informarte de su contenido, espero te entretengas y encuetres lo que estas buscando.</p>
 			   </div>
 
 			   <div class="mySlides">
@@ -245,45 +248,66 @@
 			          	      <img src="img/recomendados_opt.png"  width="500px" height="300px">
                         </div>
                         <hr>
-			       	     
-                     <div class="link">
+
+
+
+        <div class="tabs">
+              <ul class="tab-links">
+                  <li class="active"><a href="#tab1">Cursos</a></li>
+                  <li><a href="#tab2">Programas</a></li>
+                  <li><a href="#tab3">Grupos</a></li>
+                  <li><a href="#tab4">Juegos</a></li>
+              </ul>
+           
+              <div class="tab-content">
+                  <div id="tab1" class="tab active">
+                      
                         <div class="titulo"><p>Duolingo</p></div>
                         <img src="img/Duolingo.png" >
                         <p>Sitio web para aprender idiomas de una forma divertida y practica.</p>
                         <div class="boton"><a  href="https://www.duolingo.com/" target="_blank" ><p>ir al sitio</p></a></div>
+                        <br>
                         <hr>
-                        <div class="titulo"><p>Lightbot</p></div>
-                        <img src="img/Lightbot.png" >
-                        <p>Juego entretenido  y muy gráfico para aprender lógica de programación. .</p>
-                        <div class="boton"><a  href="https://lightbot.com/flash.html" target="_blank" ><p>ir al sitio</p></a></div>
-                        <hr>
+                        <div class="titulo"><p>Khan Academy</p></div>
+                        <a><img src="img/Academy.png">
+                       <p>Genial sitio para aprender matemáticas y otras áreas de una manera diferente a la tradicional, lleno de varios recursos y donde aprenderás a tu propio.</p>
+                       <div class="boton"><a  href="https://www.khanacademy.org/" target="_blank" ><p>ir al sitio</p></a></div>
+                       <hr>
+                  </div>
+           
+                  <div id="tab2" class="tab">
                         <div class="titulo"><p>Logaster</p></div>
                         <img src="img/Logaster.png" >
                         <p>Crea ideas de logos de forma  fácil y rápida con Logaster.</p>
                         <div class="boton"><a  href="https://www.logaster.com/logo/#first" target="_blank" ><p>ir al sitio</p></a></div>
-                    </div>
-                
-              
-                  <div class="link">
-
-                  <div class="titulo"><p>Khan Academy</p></div>
-                    <a >
-
-                        <img src="img/Academy.png">
-                       <p>Genial sitio para aprender matemáticas y otras áreas de una manera diferente a la tradicional, lleno de varios recursos y donde aprenderás a tu propio.</p>
-                       <div class="boton"><a  href="https://www.khanacademy.org/" target="_blank" ><p>ir al sitio</p></a></div>
-                       <hr>
-
-                       <div class="titulo"><p>Photoshopen</p></div>
-                    <a >
-
+                        <br>
+                        <hr>
+                        <div class="titulo"><p>Photoshopen</p></div>
                         <img src="img/photoshopen.png">
                        <p>Edita fácilmente tus fotos en línea con Photoshopen  sin descargar programas y fácil de guarda.</p>
                        <div class="boton"><a  href="http://photoshopen.blogspot.com//" target="_blank" ><p>ir al sitio</p></a></div>
-                    </div>
-                
-                    </a>
-                </div>
+                  </div>
+           
+                  <div id="tab3" class="tab">
+          
+                      <div class="titulo"><p>Worldpackers</p></div>
+                        <img src="img/Worldpackers.png" >
+                        <p>Viaja, Colabora y aprende con Worldpackers, esta es una pagina donde podrás encontrar múltiples ofertas en el mundo para viajar y colaborar con lo que sabes o aprender.</p>
+                        <div class="boton"><a  href="https://www.duolingo.com/" target="_blank" ><p>ir al sitio</p></a></div>
+                        <br>
+                        <hr>
+                  </div>
+           
+                  <div id="tab4" class="tab">
+                       <div class="titulo"><p>Lightbot</p></div>
+                        <img src="img/Lightbot.png" >
+                        <p>Juego entretenido  y muy gráfico para aprender lógica de programación.</p>
+                        <div class="boton"><a  href="https://lightbot.com/flash.html" target="_blank" ><p>ir al sitio</p></a></div>
+                        <br>
+                        <hr>
+                  </div>
+              </div>
+       
 	       </section>
 	
 	<!--seccion 6 Contacto-->
@@ -317,7 +341,7 @@
 	       			<div><span class="name">Jainover Mena Garzon-Licenciado en Diseño Tecnológico</span>-<span class="locality">Bogotá</span>-<span class="country-name">Colombia</span></div>
               <hr>
 
-	       	    <h2>Este proyecto  no tiene ningún fin comercial, fue desarrollado con el fin de ser de apoyo  de algunas actividades que he desarrollado y puedan servir a otros. Si hay algún material o contenido que veas que no le he dado el crédito  de la forma adecuada házmelo saber y haré el cambio pertinente, al igual se aceptan sugerencias para la mejora del sitio como actividades o paginas que quieren que ingrese o elabore, Espero les sirva el contenido aquí expuesto.</h2>
+	       	    <h2>Esta es una pagina que  no tiene ningún fin comercial, fue desarrollado con el fin de servir de apoyo mediante unos temas actividades y recursos  desarrollados, los cuales puedan servir a los que visiten el sitio. Si hay algún material o contenido el cual  vea que no le he dado el crédito de la forma adecuada, házmelo saber y haré el cambio pertinente, al igual se aceptan sugerencias para la mejora del sitio, como pueden ser actividades, material de apoyo o paginas que puedan servir para mejorar el contenido, o bien si quiere que elabore algún material, Espero les sirva el contenido aquí expuesto.</h2>
 	       		</div>
              <div><span>2016.</span></div>
             </div>
@@ -352,6 +376,24 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+</script>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e)  {
+        var currentAttrValue = jQuery(this).attr('href');
+ 
+        // Show/Hide Tabs
+        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+ 
+        // Change/remove current tab to active
+        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+ 
+        e.preventDefault();
+    });
+});
+
 </script>
 
 <style>

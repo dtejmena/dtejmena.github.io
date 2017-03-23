@@ -386,134 +386,6 @@ h6 {
 }
 
 
-#logocreatividad{
-	width: 100px;
-	height: 100px;
-	font-family: FeiradaFruta;
-	font-size: 20px;
-	color: white;
-	text-align: left;
-
-	background: url('../photo/dtejmena.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	display: box;
-
-	border: 1px solid white;
-	border-radius: 0px 10px 0px 10px;
-	-webkit-border-radius: 0px 10px 0px 10px;
-	-moz-border-radius: 0px 10px 0px 10px;
-	-o-border-radius: 0px 10px 0px 10px;
-	box-shadow: 0px 0px 10px white;
-	-webkit-box-shadow: 0px 0px 10px white;
-	-moz-box-shadow: 0px 0px 10px white;
-	-o-box-shadow: 0px 0px 10px white;
-	float: left;
-	margin: 20px;
-
-	position: fixed;
-	transform: translate(-140px, 0px);
-	-webkit-transform: translate(-140px, 0px);
-	-moz-transform: translate(-140px, 0px);
-	-o-transform: translate(-140px, 0px);
-}
-
-#logomusica{
-	width: 100px;
-	height: 100px;
-	font-family: FeiradaFruta;
-	font-size: 20px;
-	color: white;
-	text-align: left;
-
-	background: url('../photo/dtejmena.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	display: box;
-
-	border: 1px solid white;
-	border-radius: 0px 10px 0px 10px;
-	-webkit-border-radius: 0px 10px 0px 10px;
-	-moz-border-radius: 0px 10px 0px 10px;
-	-o-border-radius: 0px 10px 0px 10px;
-	box-shadow: 0px 0px 10px white;
-	-webkit-box-shadow: 0px 0px 10px white;
-	-moz-box-shadow: 0px 0px 10px white;
-	-o-box-shadow: 0px 0px 10px white;
-	float: left;
-	margin: 10px;
-
-	position: absolute;
-	transform: translate(-140px, 0px);
-	-webkit-transform: translate(-140px, 0px);
-	-moz-transform: translate(-140px, 0px);
-	-o-transform: translate(-140px, 0px);
-}
-
-#logo3d{
-	width: 100px;
-	height: 100px;
-	font-family: FeiradaFruta;
-	font-size: 20px;
-	color: white;
-	text-align: left;
-
-	background: url('../photo/dtejmena.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	display: box;
-
-	border: 1px solid white;
-	border-radius: 0px 10px 0px 10px;
-	-webkit-border-radius: 0px 10px 0px 10px;
-	-moz-border-radius: 0px 10px 0px 10px;
-	-o-border-radius: 0px 10px 0px 10px;
-	box-shadow: 0px 0px 10px white;
-	-webkit-box-shadow: 0px 0px 10px white;
-	-moz-box-shadow: 0px 0px 10px white;
-	-o-box-shadow: 0px 0px 10px white;
-	float: left;
-	margin: 10px;
-
-	position: absolute;
-	transform: translate(-140px, 0px);
-	-webkit-transform: translate(-140px, 0px);
-	-moz-transform: translate(-140px, 0px);
-	-o-transform: translate(-140px, 0px);
-}
-
-#mifotoarticulo{
-	width: 100px;
-	height: 100px;
-	font-family: FeiradaFruta;
-	font-size: 20px;
-	color: white;
-	text-align: left;
-
-	background: url('../photo/dtejmena.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	display: box;
-
-	border: 1px solid white;
-	border-radius: 0px 10px 0px 10px;
-	-webkit-border-radius: 0px 10px 0px 10px;
-	-moz-border-radius: 0px 10px 0px 10px;
-	-o-border-radius: 0px 10px 0px 10px;
-	box-shadow: 0px 0px 10px white;
-	-webkit-box-shadow: 0px 0px 10px white;
-	-moz-box-shadow: 0px 0px 10px white;
-	-o-box-shadow: 0px 0px 10px white;
-	float: left;
-	margin: 10px;
-
-	position: absolute;
-	transform: translate(-140px, 0px);
-	-webkit-transform: translate(-140px, 0px);
-	-moz-transform: translate(-140px, 0px);
-	-o-transform: translate(-140px, 0px);
-}
-
 #sitio{
 	         overflow: hidden; 
 			 display: block;
@@ -834,6 +706,8 @@ a.imagen:hover img  {
 			  padding-bottom: 50px;
 }
 
+
+
 #portafolio{
 	         overflow: hidden; 
 			 display: block;
@@ -843,6 +717,148 @@ a.imagen:hover img  {
 			  padding-top: 100px;
 			  padding-bottom: 50px;
 }
+
+
+/*inicio pestañas*/
+
+.tabs {
+    
+    margin: 5px;
+    
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+ 
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:10px;
+            display:inline-block;
+            border-radius:10px 10px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            font-family: FeiradaFruta;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+            text-decoration:none; 
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+
+   
+
+     position:relative;
+	min-height:1px;
+	padding-right:15px;
+	padding-left:15px;
+	border: 2px solid white;
+
+	background: rgba(255, 255,255,0);
+	border: 1px solid white;
+	border-radius: 0px 25px 25px 25px;
+	-webkit-border-radius: 0px 25px 25px 25px;
+	-moz-border-radius: 0px 25px 25px 25px;
+	-o-border-radius: 0px 25px 25px 25px;
+	box-shadow: 3px 3px 10px black;
+	-webkit-box-shadow: 3px 3px 10px black;
+	-moz-box-shadow: 3px 3px 10px black;
+	-o-box-shadow: 3px 3px 10px black;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+
+
+
+
+
+
+.tab-content .boton{
+	margin: auto;
+	width: 200px;
+}
+
+.tab-content a{
+	text-decoration: none;
+	color:white;
+	font-size: 12px;
+}
+
+.tab-content .boton p{
+	text-align: center;
+}
+
+.tab-content img{
+	width: 200px;
+	height: 100px;
+
+	float: left; 
+    position: relative;
+	display: block;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+
+}
+
+.tab-content:hover{
+	box-shadow: 0px 0px 25px white;
+	-webkit-box-shadow: 0px 0px 25px white;
+	-moz-box-shadow: 0px 0px 25px white;
+	-o-box-shadow: 0px 0px 25px white;
+}
+
+@media (min-width:800px){
+	
+
+	.tab-content{
+		float:left;
+		width:100%;
+		
+	}
+
+	
+}
+
+/*Fin pestañas*/
+
+
+
+
+
+
+
+
+
 
 #acercademi{
 	         overflow: hidden; 
@@ -907,3 +923,4 @@ a.imagen:hover img  {
 
 
 
+ 
