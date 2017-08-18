@@ -259,6 +259,8 @@ header nav ul li a:hover{
 body{
    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+
+
 }
 
 /*fin de Maquetacion principal */
@@ -273,7 +275,7 @@ section{
 			 overflow: hidden; 
 			 display: block;
 			 text-align: center;
-			  background: #111212;
+			  background: #084b25 url(../img/noisebg.png);
 			  color: white;
 			  padding-top: 100px;
 			  padding-bottom: 50px;
@@ -369,13 +371,17 @@ footer{
 	text-align: center;
 	width: 100%;
 	height: 100px;
-	background: #6c36e9;
 	border: 2px solid white;
 	
 	box-shadow: 0px 0px 10px white;
 	-moz-box-shadow: 0px 0px 10px white;
 	-webkit-box-shadow: 0px 0px 10px white;
 	-o-box-shadow: 0px 0px 10px white;
+
+    background: #6c36e9 url(../img/noisebg.png);
+    font-weight: 400;
+    font-size: 15px;
+    color: #333;
 }
 
 h6 {
@@ -390,7 +396,7 @@ h6 {
 	         overflow: hidden; 
 			 display: block;
 			 text-align: center;
-			  background: #891919;
+			  background: #891919 url(../img/noisebg.png);
 			  color: white;
 			  padding-top: 90px;
 			  padding-bottom: 50px;
@@ -642,7 +648,8 @@ a.imagen:hover img  {
 	         overflow: hidden; 
 			 display: block;
 			 text-align: center;
-			  background:  #b2b0b5;
+			 
+			  background: #b2b0b5 url(../img/noisebg.png);
 			  color: white;
 			  padding-top: 100px;
 			  padding-bottom: 50px;
@@ -700,7 +707,7 @@ a.imagen:hover img  {
 	         overflow: hidden; 
 			 display: block;
 			 text-align: center;
-			  background:  #1b5d0b;
+			  background: #1b5d0b url(../img/noisebg.png);
 			  color: white;
 			  padding-top: 100px;
 			  padding-bottom: 50px;
@@ -712,7 +719,7 @@ a.imagen:hover img  {
 	         overflow: hidden; 
 			 display: block;
 			 text-align: center;
-			  background:  #e74f1d;
+			  background:  #e74f1d url(../img/noisebg.png);
 			  color: white;
 			  padding-top: 100px;
 			  padding-bottom: 50px;
@@ -846,19 +853,11 @@ a.imagen:hover img  {
 /*Fin pestañas*/
 
 
-
-
-
-
-
-
-
-
 #acercademi{
 	         overflow: hidden; 
 			 display: block;
 			 text-align: center;
-			  background:  #084b68;
+			  background:  #084b68 url(../img/noisebg.png);
 			  color: white;
 			  padding-top: 100px;
 			  padding-bottom: 50px;
