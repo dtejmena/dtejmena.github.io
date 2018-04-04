@@ -1,4 +1,4 @@
-@import url('demo.css');
+
 
 @font-face {
 	font-family: 'icomoon';
@@ -73,7 +73,7 @@
 
 .st-wrapper .st-title,
 .st-wrapper nav {
-	position: absolute;
+    
 	width: 100%;
 	left: 0;
 	bottom: 0;
@@ -87,7 +87,7 @@
 }
 
 .st-wrapper .st-title {
-	padding: 0 10% 60px;
+	padding: 330px 0px 0px 0px ;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
@@ -98,10 +98,10 @@
 .st-wrapper .st-title h2 {
 	padding: 0 20px;
 	font-size: 28px;
-	color: #dc4e2a;
+	color: #fad638;
 	font-weight: 400;
 	letter-spacing: 3px;
-	font-family: 'Englebert', Arial, sans-serif;
+	font-family: FeiradaFruta;
 	line-height: 38px;
 	text-shadow: 0 1px 1px rgba(255,255,255,0.6);
 }
@@ -234,6 +234,8 @@
 	.st-wrapper {
 		height: 460px;
 	}
+
+
 }
 
 @media screen and (max-width: 1050px){
@@ -243,6 +245,8 @@
 	.st-wrapper {
 		height: 380px;
 	}
+
+
 }
 
 @media screen and (max-width: 935px){
@@ -252,6 +256,10 @@
 	.st-wrapper {
 		height: 380px;
 	}
+
+	.st-wrapper .st-item img {
+	margin-top: -10%; 
+}
 }
 
 @media screen and (max-width: 880px){
@@ -264,6 +272,10 @@
 	.st-wrapper {
 		height: 420px;
 	}
+
+	.st-wrapper .st-item img {
+	margin-top: -50%; 
+}
 }
 
 @media screen and (max-width: 740px){
@@ -276,6 +288,10 @@
 	.st-wrapper {
 		height: 370px;
 	}
+
+	.st-wrapper .st-item img {
+	margin-top: -50%; 
+}
 }
 
 @media screen and (max-width: 650px){
@@ -285,6 +301,10 @@
 	.st-wrapper nav {
 		bottom: 220px;
 	}
+
+	.st-wrapper .st-item img {
+	margin-top: -70%; 
+}
 }
 
 @media screen and (max-width: 450px){
@@ -306,5 +326,9 @@
 	.st-wrapper {
 		height: 300px;
 	}
+
+	.st-wrapper .st-item img {
+	margin-top: -60%; 
+}
 }
 
