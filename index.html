@@ -14,13 +14,16 @@
         <link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/Slider_sitio.css">
 
 
   	    <script src="js/jquery-latest.js"></script>
   	    <script src="js/main.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
         <script src="js/modernizr.custom.63321.js"></script>
-        
+
+
+    
 
      </head>
 
@@ -44,12 +47,12 @@
 
 			    <nav>
 			        <ul>
-			             <li><a href="#acercademi"><br/>AUTOR</a></li>
-			             <li><a href="#portafolio"><br/>SUGERIDO</a></li>
-			             <li><a href="#actividad"><br/>ACTIVIDADES</a></li>
-			             <li><a href="#proyectos"><br/>PROYECTOS</a></li>
-			            <li><a href="#sitio"><br/>El SITIO</a></li>
-			       </ul>
+			             <li><a href="#acercademi"><br/><div class=" fs1"><span class="icon-autor-01"></span></div>AUTOR</a></li>
+			             <li><a href="#portafolio"><br/><div class=" fs1"> <span class="icon-preferidos"></span></div>SUGERIDO</a></li>
+			             <li><a href="#actividad"><br/><div class=" fs1"> <span class="icon-actividades-01"></span></div>ACTIVIDADES</a></li>
+			             <li><a href="#proyectos"><br/><div class=" fs1"> <span class="icon-portafolio-01"></span></div>PROYECTOS</a></li>
+			            <li><a href="#sitio"><br/><div class=" fs1"><span class="icon-inicio-01"></span></div>El SITIO</a></li>
+			        </ul>
 			    </nav>
 		   </header>   
 
@@ -92,30 +95,79 @@
 
 <!--Seccion 2 eLsitio -->
 	        <section id="sitio">
-				<div class="mySlides">
-                  <div class="titulo"><p>SITIO</p></div>
-				  
-			   </div>
 
-           <section class="main">
 
-        <ul id="st-stack" class="st-stack-raw">
+            <div class="container">
+  
+  <input type="radio" id="i1" name="images" checked />
+  <input type="radio" id="i2" name="images" />
+  <input type="radio" id="i3" name="images" />
+  <input type="radio" id="i4" name="images" />
+  <input type="radio" id="i5" name="images" />  
+  
+  <div class="slide_img" id="one">      
+      
+      <img src="img/Sitio_opt.jpg">
+       <div class="tittles"><h2>Sitio</h2></div>
+       <div class="texto-encima"><h3>Este sitio web esta elaborado con el fin de servir de medio informativo y ayuda en temas de Tecnología, diseño, informática y educación,  encontraras 5 secciones (Sitio, Proyectos, Actividades, Sugeridos y acerca del autor) por donde podrás navegar  e informarte de su contenido, espero te entretengas y encuetres lo que estas buscando</h3></div>
+      
+        <label class="prev" for="i5"><span>&#x2039;</span></label>
+        <label class="next" for="i2"><span>&#x203a;</span></label>  
+    
+  </div>
+  
+  <div class="slide_img" id="two">
+       
+      <img src="img/Proyectos.jpg" >
+      <div class="tittles"><h2>Proyectos</h2></div>
+       <div class="texto-encima"><h3>Zona Alíen, en la cual encontraremos algunos proyectos que se han elaborado y aun se llevan a cabo,  haciendo uso de los conocimientos que se tienen en algunos temas, los cuales se andan mejorando constantemente.</h3></div>
+      
+      
+        <label class="prev" for="i1"><span>&#x2039;</span></label>
+        <label class="next" for="i3"><span>&#x203a;</span></label>
+    
+  </div>
+      
+  <div class="slide_img" id="three">
+      <img src="img/Actividades.jpg"> 
+       <div class="tittles"><h2>Actividades</h2></div>
+       <div class="texto-encima"><h3>Zona Lobo, en la cual se encontraran algunas actividades que se han desarrollado y servirán de apoyo para dar clases o material que sirva de ayuda, como ejemplo a otras actividades en diferentes niveles referentes a la informática, tecnología y dibujo técnico.</h3></div>
+       
+      
+        <label class="prev" for="i2"><span>&#x2039;</span></label>
+        <label class="next" for="i4"><span>&#x203a;</span></label>
+  </div>
 
-          <li>
-          <div class="st-item"><a href="#"><img src="img/Sitio_opt.jpg"  /></a></div>
-          <div class="st-title">
-            <h3>Este sitio web esta elaborado con el fin de servir de medio informativo y ayuda en temas de Tecnología, diseño, informática y educación,  encontraras 5 secciones (Sitio, Proyectos, Actividades, Sugeridos y acerca del autor) por donde podrás navegar  e informarte de su contenido, espero te entretengas y encuetres lo que estas buscando</h3>
-          </div>
-        </li>
+  <div class="slide_img" id="four">
+      <img src="img/Sugeridos.jpg">
+       <div class="tittles"><h2>Sugerido</h2></div> 
+       <div class="texto-encima"><h3>Zona gato,  en la cual encontráremos aquellas actividades, juegos, artículos, cursos, eventos y paginas sugeridas que puedan servir a los visitantes de nuestra pagina web de diferentes temas.</h3></div>
+      
+      
+        <label class="prev" for="i3"><span>&#x2039;</span></label>
+        <label class="next" for="i5"><span>&#x203a;</span></label>
+  </div>
 
-          <li>
-            <div class="st-item"><a href="#"><img src="img/Proyectos.jpg"/></a></div>
-            <div class="st-title"><h2>Proyectos</h2><h3>Zona Alíen, en la cual encontraremos algunos proyectos que se han elaborado y aun se llevan a cabo,  haciendo uso de los conocimientos que se tienen en algunos temas, los cuales se andan mejorando constantemente. </h3></div></li>
-          <li><div class="st-item"><a href="#"><img src="img/Actividades.jpg"/></a></div><div class="st-title"><h2>Actividades</h2><h3>Zona Lobo, en la cual se encontraran algunas actividades que se han desarrollado y servirán de apoyo para dar clases o material que sirva de ayuda,  como ejemplo a otras actividades en diferentes niveles referentes a la informática, tecnología y dibujo técnico.</h3></div></li>
-          <li><div class="st-item"><a href="#"><img src="img/Sugeridos.jpg"/></a></div><div class="st-title"><h2>Sugeridos</h2><h3>Zona gato,  en la cual encontráremos aquellas actividades, juegos, artículos, cursos, eventos y paginas sugeridas que puedan servir a los visitantes de nuestra pagina web de diferentes temas.</h3></div></li>
-          <li><div class="st-item"><a href="#"><img src="img/Autor.jpg"/></a></div><div class="st-title"><h2>Autor</h2><h3>Aquí conocerás al autor de la pagina, en sus intereses, su formación, gustos y demás</h3></div></li>
-        </ul>
-        </section>
+  <div class="slide_img" id="five">
+      <img src="img/Autor.jpg">
+       <div class="tittles"><h2>Autor</h2></div>
+       <div class="texto-encima"><h3>Aquí conocerás al autor de la pagina, en sus intereses, su formación, gustos y demás.</h3></div>
+      
+      
+        <label class="prev" for="i4"><span>&#x2039;</span></label>
+        <label class="next" for="i1"><span>&#x203a;</span></label>
+
+  </div>
+
+  <div id="nav_slide">
+    <label for="i1" class="dots" id="dot1"></label>
+    <label for="i2" class="dots" id="dot2"></label>
+    <label for="i3" class="dots" id="dot3"></label>
+    <label for="i4" class="dots" id="dot4"></label>
+    <label for="i5" class="dots" id="dot5"></label>
+  </div>
+    
+</div>
 
    </section>
 
@@ -431,21 +483,6 @@ jQuery(document).ready(function() {
 
 </script>
 
-<!--Script sitio-->
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.stackslider.js"></script>
-    <script type="text/javascript">
-      
-      $( function() {
-        
-        $( '#st-stack' ).stackslider();
-
-      });
-
-    </script>
-
-    <!--fin Script sitio-->
 
 <style>
 
