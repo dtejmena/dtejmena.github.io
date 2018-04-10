@@ -54,7 +54,7 @@ h2{
 }
 
 h3{
-	font-size: 36px;
+	font-size: 30px;
 	margin: 0px;
 	padding: 0px;
 	text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
@@ -173,12 +173,13 @@ header nav ul li {
 
 header nav ul li a {
 	color: #fff;
-	padding: 15px;
-	padding-top: 10px;
+	padding: 0px 20px 0px 20px;
 	display: block;
 	text-decoration: none;
 	font-family: FeiradaFruta;
 	text-align: center;
+	font-size: 15px;
+
 }
 
 header nav ul li span {
@@ -345,9 +346,10 @@ section#slider  img {
 	-ms-transform:translate(0%,-50%);
 }
 
-.st-wrapper .st-title h3{
-	font-size: 1.1em;
+.texto-encima h3{
+	font-size: 1.2em;
 	margin: -30px;
+	padding: 100px 35px 35px 35px;
 }
 
 .mySlides .titulo p{
@@ -357,6 +359,53 @@ section#slider  img {
 
 
 }
+
+@media (max-width: 935px) {
+
+	.texto-encima h3{
+	font-size: 1.2em;
+	margin: -30px;
+	padding: 60px 35px 35px 35px;
+}
+}
+
+@media (max-width: 880px) {
+
+	.texto-encima h3{
+	font-size: 1.2em;
+	margin: -30px;
+	padding: 60px 35px 35px 35px;
+}
+}
+
+@media (max-width: 740px) {
+
+	.texto-encima h3{
+	font-size: 1.2em;
+	margin: -30px;
+	padding: 60px 35px 35px 35px;
+}
+}
+
+@media (max-width: 650px) {
+
+	.texto-encima h3{
+	font-size: 1.2em;
+	margin: -30px;
+	padding: 60px 35px 35px 35px;
+}
+
+	}
+
+@media (max-width: 450px) {
+
+	.texto-encima h3{
+	font-size: 1.2em;
+	margin: -30px;
+	padding: 40px 35px 35px 35px;
+}
+
+	}
 
 /*caja de redes sociales*/
 
@@ -391,6 +440,9 @@ section#slider  img {
 
 
 /*Fin slider*/
+
+
+
 footer{
 	display: table;
 	margin: auto;
@@ -425,7 +477,7 @@ h6 {
 			  background: #891919 url(../img/noisebg.png);
 			  color: white;
 			  padding-top: 90px;
-			  padding-bottom: 50px;
+			  padding-bottom: 200px;
 
 }
 
@@ -956,4 +1008,6 @@ a.imagen:hover img  {
 
 
 
- 
+ /*Slider sitio*/
+
+
