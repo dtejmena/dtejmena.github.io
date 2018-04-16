@@ -119,4 +119,9 @@ font-size: 40px;
 
 }
 
+#logo img {
+  padding-left: 6px;
+  width: 5%;
+  margin-right: -35px;
+}
 
